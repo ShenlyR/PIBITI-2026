@@ -7,7 +7,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
     
 
-    {{-- check mode --}}
+    {{-- check mode & state persistance--}}
     <script>
         if (localStorage.getItem('theme') === 'dark') {
             document.documentElement.setAttribute('data-theme', 'dark');
